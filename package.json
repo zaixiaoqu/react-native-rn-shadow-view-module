@@ -1,0 +1,29 @@
+{
+  "name": "react-native-rn-shadow-view-module",
+  "title": "React Native 阴影组件",
+  "version": "0.0.1",
+  "description": "React Native 阴影组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaixiaoqu/react-native-rn-shadow-view-module.git",
+    "baseUrl": "https://github.com/zaixiaoqu/react-native-rn-shadow-view-module"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-rn-shadow-view-module",
+    "React Native 阴影组件"
+  ],
+  "author": {
+    "name": "yusheng",
+    "email": "don@zaixiaoqu.cn"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaixiaoqu/react-native-rn-shadow-view-module/issues"
+  },
+  "homepage": "https://github.com/zaixiaoqu/react-native-rn-shadow-view-module.git#readme"
+}
