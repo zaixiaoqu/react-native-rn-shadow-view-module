@@ -9,6 +9,7 @@ import com.facebook.react.bridge.NativeModule;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.uimanager.ViewManager;
 import com.facebook.react.bridge.JavaScriptModule;
+import com.zaixiaoqu.shadowview.component.RNTShadowViewManager;
 
 public class RnShadowViewModulePackage implements ReactPackage {
     @Override
@@ -18,6 +19,8 @@ public class RnShadowViewModulePackage implements ReactPackage {
 
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-        return Collections.emptyList();
+        return Arrays.<ViewManager>asList(
+                new RNTShadowViewManager()
+        );
     }
 }

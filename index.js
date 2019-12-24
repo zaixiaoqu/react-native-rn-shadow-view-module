@@ -1,5 +1,7 @@
 import { NativeModules } from 'react-native';
-
+import ShadowView from './src/ShadowView';
 const { RnShadowViewModule } = NativeModules;
-
-export default RnShadowViewModule;
+export {
+    RnShadowViewModule
+};
+export default ShadowView;
