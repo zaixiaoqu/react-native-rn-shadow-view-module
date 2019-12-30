@@ -47,7 +47,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-        renderscriptTargetApi safeExtGet('targetSdkVersion', DEFAULT_TARGET_SDK_VERSION)
+        renderscriptTargetApi safeExtGet('renderscriptTargetApi', DEFAULT_MIN_SDK_VERSION)
         renderscriptSupportModeEnabled true
     }
     lintOptions {
